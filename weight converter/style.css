@@ -1,0 +1,32 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.main {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 90vh;
+}
+
+.weight-converter {
+  box-shadow: 4px 4px 10px rgba(0, 0, 0, 0.5);
+  padding: 10px;
+  font-family: sans-serif;
+  line-height: 40px;
+}
+
+form input {
+  padding: 10px;
+  border: 1px solid darkgray;
+}
+
+form input {
+  padding: 10px;
+  border: 1px solid darkgray;
+  outline: none;
+  border-radius: 5px;
+  font-size: 14px;
+}

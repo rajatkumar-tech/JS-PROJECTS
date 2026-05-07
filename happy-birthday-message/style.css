@@ -1,0 +1,39 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+.main{
+    display: flex;
+    align-content: center;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+    height: 250px;
+    width: 300px;
+    border: 1px solid black;
+    padding: 20px;
+    gap: 10px;
+    margin: auto;
+    margin-top: 40vh;
+}
+
+input{
+    font-size: 15px;
+    padding: 5px;
+    text-transform: uppercase;
+}
+
+button{
+    height: 40px;
+    width: 150px;
+    font-size: 15px;
+    margin: auto;
+}
+
+
+.hide{
+    display: none;
+}
