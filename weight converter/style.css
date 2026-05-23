@@ -18,12 +18,12 @@
   line-height: 40px;
 }
 
-form input {
+form input, select {
   padding: 10px;
   border: 1px solid darkgray;
 }
 
-form input {
+form input, select {
   padding: 10px;
   border: 1px solid darkgray;
   outline: none;

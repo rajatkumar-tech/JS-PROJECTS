@@ -1,14 +1,16 @@
 let pound = document.querySelector(".pound");
 let msg = document.querySelector(".msg");
+const select = document.querySelector("select");
+const option = document.querySelector("option");
 
 let onePound = 0.453592;
+let oneKgValue = 1000;
 let num;
 let total;
 
 pound.addEventListener("input", async (evt) => {
   num = parseFloat(pound.value);
   await mesError();
-
  
  
 });
@@ -29,5 +31,7 @@ const mesError = () => {
     msg.style.color = "green";
   }
 };
+
+
 
 
