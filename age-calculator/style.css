@@ -19,7 +19,7 @@
     flex-direction: column;
     height: 40vh;
     width: 40vw;
-    box-shadow: 4px 0px 4px 4px rgba(0, 0, 0, 0.5);
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
     gap: 5px;
     border: 1px solid gray;
 }
