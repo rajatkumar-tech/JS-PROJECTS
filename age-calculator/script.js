@@ -38,7 +38,7 @@ btn.addEventListener("click", ()=>{
         age--;
     }
 
-    h2.innerText  = `your ${age} is this`
+    h2.innerText  = `You are ${age} years old`
     
     
 })
